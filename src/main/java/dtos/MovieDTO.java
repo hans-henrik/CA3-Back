@@ -11,12 +11,13 @@ package dtos;
  */
 public class MovieDTO {
     
-    String name;
-    String quote;
+    String content;
+    String src;
     
-    public MovieDTO(String name, String quote) {
-        this.name = name;
-        this.quote = quote;
+    
+    public MovieDTO(String content, String src) {
+        this.content = content;
+        this.src = src;
     }
     
 }

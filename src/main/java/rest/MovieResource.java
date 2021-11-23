@@ -45,7 +45,7 @@ public class MovieResource {
     public String getMovieDTOList() {
         try {
             List<MovieDTO> movieDTOs = FACADE.getDataFromMovie() ;
-
+            System.out.print(movieDTOs);
             return GSON.toJson(movieDTOs);
         } catch (Exception e) {
             return GSON.toJson(e);

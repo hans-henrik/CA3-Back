@@ -1,0 +1,410 @@
+{
+  "quote": {
+    "id": [
+      {
+        "content": "Frankly, my dear, I don't give a damn.",
+        "src": "Gone with the Wind"
+      },
+      {
+        "content": "I'm gonna make him an offer he can't refuse.",
+        "src": "The Godfather"
+      },
+      {
+        "content": "You don't understand! I coulda had class. I coulda been a contender. I could've been somebody, instead of a bum, which is what I am.",
+        "src": "On the Waterfront"
+      },
+      {
+        "content": "Toto, I've a feeling we're not in Kansas anymore.",
+        "src": "The Wizard of Oz"
+      },
+      {
+        "content": "Here's looking at you, kid.",
+        "src": "Casablanca"
+      },
+      {
+        "content": "Go ahead, make my day.",
+        "src": "Sudden Impact"
+      },
+      {
+        "content": "All right, Mr. DeMille, I'm ready for my close-up.",
+        "src": "Sunset Boulevard"
+      },
+      {
+        "content": "I'm gonna make him an offer he can't refuse.",
+        "src": "The Godfather"
+      },
+      {
+        "content": "May the Force be with you.",
+        "src": "Star Wars"
+      },
+      {
+        "content": "Fasten your seatbelts. It's going to be a bumpy night.",
+        "src": "All About Eve"
+      },
+      {
+        "content": "You talkin' to me?",
+        "src": "Taxi Driver"
+      },
+      {
+        "content": "What we've got here is failure to communicate.",
+        "src": "Cool Hand Luke"
+      },
+      {
+        "content": "I love the smell of napalm in the morning.",
+        "src": "Apocalypse Now"
+      },
+      {
+        "content": "Love means never having to say you're sorry.",
+        "src": "Love Story"
+      },
+      {
+        "content": "The stuff that dreams are made of",
+        "src": "The Maltese Falcon"
+      },
+      {
+        "content": "E.T. phone home.",
+        "src": "E.T. the Extra-Terrestrial"
+      },
+      {
+        "content": "They Call me Mister Tibbs!",
+        "src": "In the Heat of the Night"
+      },
+      {
+        "content": "Rosebud.",
+        "src": "Citizen Kane"
+      },
+      {
+        "content": "Made it, Ma! Top of the world!",
+        "src": "White Heat"
+      },
+      {
+        "content": "I'm as mad as hell, and I'm not going to take this anymore!",
+        "src": "Network"
+      },
+      {
+        "content": "Louis, i think this is the beginning of a beautiful friendship.",
+        "src": "Casablanca"
+      },
+      {
+        "content": "A census once tried to test me. I ate his liver with some fava beans and a nice Chianti.",
+        "src": "The Silence of the lambs"
+      },
+      {
+        "content": "Bond. James Bond.",
+        "src": "Dr. No"
+      },
+      {
+        "content": "There's no place like home",
+        "src": "The Wizard of Oz"
+      },
+      {
+        "content": "I am big! It's the pictures that got small.",
+        "src": "Sunset Boulevard"
+      },
+      {
+        "content": "Show me the money!",
+        "src": "Jerry Maguire"
+      },
+      {
+        "content": "Why don't you come up sometime and see me?",
+        "src": "She Done Him Wrong"
+      },
+      {
+        "content": "I'm walking here! I'm walking here!",
+        "src": "Midnight Cowboy"
+      },
+      {
+        "content": "Play it, Sam Play 'As Time Goes By'.",
+        "src": "Casablanca"
+      },
+      {
+        "content": "You can't handle the truth!",
+        "src": "A Few Good Men"
+      },
+      {
+        "content": "I want to be alone",
+        "src": "Grand Hotel"
+      },
+      {
+        "content": "After all, tomorrow is another day!",
+        "src": "Gone with the Wind"
+      },
+      {
+        "content": "Round up the usual suspects.",
+        "src": "Casablanca"
+      },
+      {
+        "content": "I'll have what she's having.",
+        "src": "When Harry Met Sally..."
+      },
+      {
+        "content": "You know how to whistle, don't you, Steve? You just put your lips together and blow.",
+        "src": "To Have and Have Not"
+      },
+      {
+        "content": "You're gonna need a bigger boat.",
+        "src": "Jaws"
+      },
+      {
+        "content": "Badges? we ain't got no badges! We don't need no badges! I don't have to show you any stinking badges!",
+        "src": "Gold Hat"
+      },
+      {
+        "content": "I'll be back.",
+        "src": "The Terminator"
+      },
+      {
+        "content": "Today, I consider myself the luckiest man on the face of the Earth",
+        "src": "The Pride of the Yankees"
+      },
+      {
+        "content": "If you build it, he will come",
+        "src": "Field of Dreams"
+      },
+      {
+        "content": "Mama always said life was like a box of chocolates. You never know what you're gonna get.",
+        "src": "Forrest Gump"
+      },
+      {
+        "content": "We rob banks.",
+        "src": "Bonnie and Clyde"
+      },
+      {
+        "content": "Plastics.",
+        "src": "The Graduate"
+      },
+      {
+        "content": "We'll always have Paris",
+        "src": "Casablanca"
+      },
+      {
+        "content": "I see dead people",
+        "src": "The Sixth Sense"
+      },
+      {
+        "content": "Stella! Hey, Stella!",
+        "src": "A Streetcar Named Desire"
+      },
+      {
+        "content": "Oh, Jerry, don't let's ask for the moon. We have the stars.",
+        "src": "Now, Voyager"
+      },
+      {
+        "content": "Shane. Shane. Come back!",
+        "src": "Shane"
+      },
+      {
+        "content": "Well, nobody's perfect.",
+        "src": "Some Like It Hot"
+      },
+      {
+        "content": "It's alive! It's alive!",
+        "src": "Frankenstein"
+      },
+      {
+        "content": "Houston, we have a problem.",
+        "src": "Apollo 13"
+      },
+      {
+        "content": "You've got to ask yourself one question: 'Do i feel lucky?' Well, do ya, punk?",
+        "src": "Dirty Harry"
+      },
+      {
+        "content": "You had me at 'hello'",
+        "src": "Jerry Maguire"
+      },
+      {
+        "content": "One morning I shot an elephant in my pajamas. How whe got in my pajamas, I don't know",
+        "src": "Animal Crackers"
+      },
+      {
+        "content": "There's no crying in baseball!",
+        "src": "A League of Their Own"
+      },
+      {
+        "content": "La-dee-da, lad-dee-da",
+        "src": "Annie Hall"
+      },
+      {
+        "content": "A boy's best friend is his mother",
+        "src": "Psycho"
+      },
+      {
+        "content": "Greed, for lack of a better word, is good.",
+        "src": "Wall Street"
+      },
+      {
+        "content": "Keep your friends close, but your enemies close.",
+        "src": "The Godfather Part II"
+      },
+      {
+        "content": "As God is my witness, I'll never be hungry again.",
+        "src": "Gone with the Wind"
+      },
+      {
+        "content": "Well, here's another nice mess you've gotten me into!",
+        "src": "Son of the Desert"
+      },
+      {
+        "content": "Say 'hello' to my little friend!",
+        "src": "Scarface"
+      },
+      {
+        "content": "What a dump.",
+        "src": "Beyond the Forrest"
+      },
+      {
+        "content": "Mrs. Robinson, you're trying to seduce me. Aren't you?",
+        "src": "The Graduate"
+      },
+      {
+        "content": "Gentlemen, you can't fight in here! This is the War Room!",
+        "src": "Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb"
+      },
+      {
+        "content": "Elementary, my dear Watson.",
+        "src": "The Adventures of Sherlock Holmes"
+      },
+      {
+        "content": "Get your stinking paws off me, you damned dirty ape.",
+        "src": "Planet of the Apes"
+      },
+      {
+        "content": "Of all the gin joints in all the towns in all the world, she walks into mine",
+        "src": "Casablanca"
+      },
+      {
+        "content": "Here's Johnny!",
+        "src": "The Shining"
+      },
+      {
+        "content": "They're here!",
+        "src": "Poltergeist"
+      },
+      {
+        "content": "Is it safe?",
+        "src": "Marathon Man"
+      },
+      {
+        "content": "Wait a minute, wait a minute. You ain't heard nothin' yet!",
+        "src": "The Jazz Singer"
+      },
+      {
+        "content": "No wire hangers, ever!",
+        "src": "Mommie dearest"
+      },
+      {
+        "content": "Mother of mercy, is this the end of Rico?",
+        "src": "Little Ceasar"
+      },
+      {
+        "content": "Forget it, Jake, it's Chinatown",
+        "src": "Chinatown"
+      },
+      {
+        "content": "I have always depended on the kindness of strangers.",
+        "src": "A Streetcar Named Desire"
+      },
+      {
+        "content": "Hasta la vista, baby.",
+        "src": "Terminator 2: Judgment Day"
+      },
+      {
+        "content": "Soylent Green is people!",
+        "src": "Soylent Green"
+      },
+      {
+        "content": "Open the pod bay doors, HAL",
+        "src": "2001: A Space Odyssey"
+      },
+      {
+        "content": "Striker: Surely you can't be serious. Rumack: I am serious ... and don't call me Shirley",
+        "src": "Airplane"
+      },
+      {
+        "content": "Yo, Adrian!",
+        "src": "Rocky"
+      },
+      {
+        "content": "Hello, gorgeous.",
+        "src": "Funny Girl"
+      },
+      {
+        "content": "Toga! Toga!",
+        "src": "Lampoon's Animal House"
+      },
+      {
+        "content": "Listen to them. Children of the night. What music they make.",
+        "src": "Dracula"
+      },
+      {
+        "content": "Oh, no it wasn't the airplanes. It was beauty that killed the Beast",
+        "src": "King Kong"
+      },
+      {
+        "content": "My precious",
+        "src": "The Lord of the Rings: The Two Towers"
+      },
+      {
+        "content": "Attica! Attica!",
+        "src": "Dog Day Afternoon"
+      },
+      {
+        "content": "Sawyer, you're going out a youngster, but you've got to come back a star",
+        "src": "42nd Street"
+      },
+      {
+        "content": "Listen to me, mister. You're my knight in shining armor. Don't you forget it. You're going to get back on that horse, and im going to be right behind you, holding on tight, and away we're gonan go, go, go",
+        "src": "On Golden Pond"
+      },
+      {
+        "content": "Tell 'em to go out there with all they got and win just one for the Gipper",
+        "src": "Knute Rockne, All American"
+      },
+      {
+        "content": "A martini. Shaken, not stirred.",
+        "src": "Gold Finger"
+      },
+      {
+        "content": "Who's on first?",
+        "src": "The Naughty Nineties"
+      },
+      {
+        "content": "Cinderella story. Outta nowhere. A former greenskeeper, now, about to become the Masters champion. It looks like a mirac... It's in the hole! It's in the hole! It's in the hole!",
+        "src": "Caddyshack"
+      },
+      {
+        "content": "Life is a banquet, and most poor suckers are starving to death!",
+        "src": "Auntie Mame"
+      },
+      {
+        "content": "I feel the need-the need for speed!",
+        "src": "Top Gun"
+      },
+      {
+        "content": "Carpe diem. Seize the day, boys. Make your lives extraordinary.",
+        "src": "Dead Poets Society"
+      },
+      {
+        "content": "Snap out of it!",
+        "src": "Moonstruck"
+      },
+      {
+        "content": "My mother thanks you. My father thanks you. My Sister thanks you. And i Thank you.",
+        "src": "Yankee Doodle Dandy"
+      },
+      {
+        "content": "Nobody puts Baby in a corner.",
+        "src": "Dirty Dancing"
+      },
+      {
+        "content": "I'll get you, my pretty, and your little dog too!",
+        "src": "The Wizard of Oz"
+      },
+      {
+        "content": "I'm the King of the World",
+        "src": "Titanic"
+      }
+    ]
+  }
+}
