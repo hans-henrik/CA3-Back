@@ -5,7 +5,19 @@
  */
 package facades;
 
+import callables.ApiFetchCallable;
 import com.google.gson.Gson;
+import dtos.MovieDTO;
+import java.io.Reader;
+import java.nio.file.Files;
+import java.nio.file.Paths;
+import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
+import java.util.Scanner;
+import java.util.concurrent.ExecutionException;
+import java.util.concurrent.ExecutorService;
+import java.util.concurrent.Executors;
 import javax.persistence.EntityManagerFactory;
 
 /**
@@ -31,6 +43,25 @@ public class ServerFacade {
             instance = new ServerFacade();
         }
         return instance;
+    }
+    
+    public List<MovieDTO> getDataFromMovie() throws ExecutionException, InterruptedException {
+        
+        List<MovieDTO> movieDTOs = new ArrayList();
+        
+        try {
+            
+        Reader reader = Files.newBufferedReader(Paths.get("movies.json"));
+        
+        movieDTOs = Arrays.asList(gson.fromJson(reader, MovieDTO[].class));
+        
+        reader.close();
+            
+        } catch (Exception ex) {
+            ex.printStackTrace();
+        }       
+        
+        return movieDTOs;
     }
     
 }
