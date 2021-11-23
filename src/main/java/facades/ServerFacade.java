@@ -8,7 +8,9 @@ package facades;
 import callables.ApiFetchCallable;
 import com.google.gson.Gson;
 import dtos.MovieDTO;
+import java.io.File;
 import java.io.Reader;
+import java.net.URL;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 import java.util.ArrayList;
@@ -50,6 +52,9 @@ public class ServerFacade {
         List<MovieDTO> movieDTOs = new ArrayList();
         
         try {
+            
+        //URL url = getClass().getResource("movies.json");
+        //File file = new File(url.getPath());
             
         Reader reader = Files.newBufferedReader(Paths.get("movies.json"));
         
