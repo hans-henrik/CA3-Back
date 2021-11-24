@@ -8,6 +8,7 @@ package rest;
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
 import dtos.MovieDTO;
+import dtos.QuotesDTO;
 import facades.ServerFacade;
 import java.util.List;
 import javax.persistence.EntityManager;
@@ -42,11 +43,13 @@ public class MovieResource {
 @Path("quotes")
     @GET
     @Produces(MediaType.APPLICATION_JSON)
-    public String getMovieDTOList() {
+    public String getQuoteDTOList() {
         try {
-            List<MovieDTO> movieDTOs = FACADE.getDataFromMovie() ;
-            System.out.print(movieDTOs);
-            return GSON.toJson(movieDTOs);
+            QuotesDTO quotesDTO = FACADE.getDataFromMovie() ;
+            System.out.print("Hellooooooooooooooooooooooooooooooo");
+            System.out.print(quotesDTO);
+            
+            return GSON.toJson(quotesDTO);
         } catch (Exception e) {
             return GSON.toJson(e);
         }

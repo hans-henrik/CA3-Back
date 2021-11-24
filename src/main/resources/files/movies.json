@@ -1,24 +1,23 @@
 {
-  "quote": {
-    "id": [
+  "quotes": [
       {
-        "content": "Frankly, my dear, I don't give a damn.",
+        "content": "Frankly, my dear, I dont give a damn.",
         "src": "Gone with the Wind"
       },
       {
-        "content": "I'm gonna make him an offer he can't refuse.",
+        "content": "Im gonna make him an offer he cant refuse.",
         "src": "The Godfather"
       },
       {
-        "content": "You don't understand! I coulda had class. I coulda been a contender. I could've been somebody, instead of a bum, which is what I am.",
+        "content": "You dont understand! I coulda had class. I coulda been a contender. I couldve been somebody, instead of a bum, which is what I am.",
         "src": "On the Waterfront"
       },
       {
-        "content": "Toto, I've a feeling we're not in Kansas anymore.",
+        "content": "Toto, Ive a feeling were not in Kansas anymore.",
         "src": "The Wizard of Oz"
       },
       {
-        "content": "Here's looking at you, kid.",
+        "content": "Heres looking at you, kid.",
         "src": "Casablanca"
       },
       {
@@ -26,11 +25,11 @@
         "src": "Sudden Impact"
       },
       {
-        "content": "All right, Mr. DeMille, I'm ready for my close-up.",
+        "content": "All right, Mr. DeMille, Im ready for my close-up.",
         "src": "Sunset Boulevard"
       },
       {
-        "content": "I'm gonna make him an offer he can't refuse.",
+        "content": "Im gonna make him an offer he cant refuse.",
         "src": "The Godfather"
       },
       {
@@ -38,15 +37,15 @@
         "src": "Star Wars"
       },
       {
-        "content": "Fasten your seatbelts. It's going to be a bumpy night.",
+        "content": "Fasten your seatbelts. Its going to be a bumpy night.",
         "src": "All About Eve"
       },
       {
-        "content": "You talkin' to me?",
+        "content": "You talkin to me?",
         "src": "Taxi Driver"
       },
       {
-        "content": "What we've got here is failure to communicate.",
+        "content": "What weve got here is failure to communicate.",
         "src": "Cool Hand Luke"
       },
       {
@@ -54,7 +53,7 @@
         "src": "Apocalypse Now"
       },
       {
-        "content": "Love means never having to say you're sorry.",
+        "content": "Love means never having to say youre sorry.",
         "src": "Love Story"
       },
       {
@@ -78,7 +77,7 @@
         "src": "White Heat"
       },
       {
-        "content": "I'm as mad as hell, and I'm not going to take this anymore!",
+        "content": "Im as mad as hell, and Im not going to take this anymore!",
         "src": "Network"
       },
       {
@@ -94,11 +93,11 @@
         "src": "Dr. No"
       },
       {
-        "content": "There's no place like home",
+        "content": "Theres no place like home",
         "src": "The Wizard of Oz"
       },
       {
-        "content": "I am big! It's the pictures that got small.",
+        "content": "I am big! Its the pictures that got small.",
         "src": "Sunset Boulevard"
       },
       {
@@ -106,19 +105,19 @@
         "src": "Jerry Maguire"
       },
       {
-        "content": "Why don't you come up sometime and see me?",
+        "content": "Why dont you come up sometime and see me?",
         "src": "She Done Him Wrong"
       },
       {
-        "content": "I'm walking here! I'm walking here!",
+        "content": "Im walking here! Im walking here!",
         "src": "Midnight Cowboy"
       },
       {
-        "content": "Play it, Sam Play 'As Time Goes By'.",
+        "content": "Play it, Sam Play As Time Goes By.",
         "src": "Casablanca"
       },
       {
-        "content": "You can't handle the truth!",
+        "content": "You cant handle the truth!",
         "src": "A Few Good Men"
       },
       {
@@ -134,23 +133,23 @@
         "src": "Casablanca"
       },
       {
-        "content": "I'll have what she's having.",
+        "content": "Ill have what shes having.",
         "src": "When Harry Met Sally..."
       },
       {
-        "content": "You know how to whistle, don't you, Steve? You just put your lips together and blow.",
+        "content": "You know how to whistle, dont you, Steve? You just put your lips together and blow.",
         "src": "To Have and Have Not"
       },
       {
-        "content": "You're gonna need a bigger boat.",
+        "content": "Youre gonna need a bigger boat.",
         "src": "Jaws"
       },
       {
-        "content": "Badges? we ain't got no badges! We don't need no badges! I don't have to show you any stinking badges!",
+        "content": "Badges? we aint got no badges! We dont need no badges! I dont have to show you any stinking badges!",
         "src": "Gold Hat"
       },
       {
-        "content": "I'll be back.",
+        "content": "Ill be back.",
         "src": "The Terminator"
       },
       {
@@ -162,7 +161,7 @@
         "src": "Field of Dreams"
       },
       {
-        "content": "Mama always said life was like a box of chocolates. You never know what you're gonna get.",
+        "content": "Mama always said life was like a box of chocolates. You never know what youre gonna get.",
         "src": "Forrest Gump"
       },
       {
@@ -174,7 +173,7 @@
         "src": "The Graduate"
       },
       {
-        "content": "We'll always have Paris",
+        "content": "Well always have Paris",
         "src": "Casablanca"
       },
       {
@@ -186,7 +185,7 @@
         "src": "A Streetcar Named Desire"
       },
       {
-        "content": "Oh, Jerry, don't let's ask for the moon. We have the stars.",
+        "content": "Oh, Jerry, dont lets ask for the moon. We have the stars.",
         "src": "Now, Voyager"
       },
       {
@@ -194,11 +193,11 @@
         "src": "Shane"
       },
       {
-        "content": "Well, nobody's perfect.",
+        "content": "Well, nobodys perfect.",
         "src": "Some Like It Hot"
       },
       {
-        "content": "It's alive! It's alive!",
+        "content": "Its alive! Its alive!",
         "src": "Frankenstein"
       },
       {
@@ -206,19 +205,19 @@
         "src": "Apollo 13"
       },
       {
-        "content": "You've got to ask yourself one question: 'Do i feel lucky?' Well, do ya, punk?",
+        "content": "Youve got to ask yourself one question: Do i feel lucky? Well, do ya, punk?",
         "src": "Dirty Harry"
       },
       {
-        "content": "You had me at 'hello'",
+        "content": "You had me at hello",
         "src": "Jerry Maguire"
       },
       {
-        "content": "One morning I shot an elephant in my pajamas. How whe got in my pajamas, I don't know",
+        "content": "One morning I shot an elephant in my pajamas. How whe got in my pajamas, I dont know",
         "src": "Animal Crackers"
       },
       {
-        "content": "There's no crying in baseball!",
+        "content": "Theres no crying in baseball!",
         "src": "A League of Their Own"
       },
       {
@@ -226,7 +225,7 @@
         "src": "Annie Hall"
       },
       {
-        "content": "A boy's best friend is his mother",
+        "content": "A boys best friend is his mother",
         "src": "Psycho"
       },
       {
@@ -238,15 +237,15 @@
         "src": "The Godfather Part II"
       },
       {
-        "content": "As God is my witness, I'll never be hungry again.",
+        "content": "As God is my witness, Ill never be hungry again.",
         "src": "Gone with the Wind"
       },
       {
-        "content": "Well, here's another nice mess you've gotten me into!",
+        "content": "Well, heres another nice mess youve gotten me into!",
         "src": "Son of the Desert"
       },
       {
-        "content": "Say 'hello' to my little friend!",
+        "content": "Say hello to my little friend!",
         "src": "Scarface"
       },
       {
@@ -254,11 +253,11 @@
         "src": "Beyond the Forrest"
       },
       {
-        "content": "Mrs. Robinson, you're trying to seduce me. Aren't you?",
+        "content": "Mrs. Robinson, youre trying to seduce me. Arent you?",
         "src": "The Graduate"
       },
       {
-        "content": "Gentlemen, you can't fight in here! This is the War Room!",
+        "content": "Gentlemen, you cant fight in here! This is the War Room!",
         "src": "Dr. Strangelove or: How I Learned to Stop Worrying and Love the Bomb"
       },
       {
@@ -274,11 +273,11 @@
         "src": "Casablanca"
       },
       {
-        "content": "Here's Johnny!",
+        "content": "Heres Johnny!",
         "src": "The Shining"
       },
       {
-        "content": "They're here!",
+        "content": "Theyre here!",
         "src": "Poltergeist"
       },
       {
@@ -286,7 +285,7 @@
         "src": "Marathon Man"
       },
       {
-        "content": "Wait a minute, wait a minute. You ain't heard nothin' yet!",
+        "content": "Wait a minute, wait a minute. You aint heard nothin yet!",
         "src": "The Jazz Singer"
       },
       {
@@ -298,7 +297,7 @@
         "src": "Little Ceasar"
       },
       {
-        "content": "Forget it, Jake, it's Chinatown",
+        "content": "Forget it, Jake, its Chinatown",
         "src": "Chinatown"
       },
       {
@@ -318,7 +317,7 @@
         "src": "2001: A Space Odyssey"
       },
       {
-        "content": "Striker: Surely you can't be serious. Rumack: I am serious ... and don't call me Shirley",
+        "content": "Striker: Surely you cant be serious. Rumack: I am serious ... and dont call me Shirley",
         "src": "Airplane"
       },
       {
@@ -331,14 +330,14 @@
       },
       {
         "content": "Toga! Toga!",
-        "src": "Lampoon's Animal House"
+        "src": "Lampoons Animal House"
       },
       {
         "content": "Listen to them. Children of the night. What music they make.",
         "src": "Dracula"
       },
       {
-        "content": "Oh, no it wasn't the airplanes. It was beauty that killed the Beast",
+        "content": "Oh, no it wasnt the airplanes. It was beauty that killed the Beast",
         "src": "King Kong"
       },
       {
@@ -350,15 +349,15 @@
         "src": "Dog Day Afternoon"
       },
       {
-        "content": "Sawyer, you're going out a youngster, but you've got to come back a star",
+        "content": "Sawyer, youre going out a youngster, but youve got to come back a star",
         "src": "42nd Street"
       },
       {
-        "content": "Listen to me, mister. You're my knight in shining armor. Don't you forget it. You're going to get back on that horse, and im going to be right behind you, holding on tight, and away we're gonan go, go, go",
+        "content": "Listen to me, mister. Youre my knight in shining armor. Dont you forget it. Youre going to get back on that horse, and im going to be right behind you, holding on tight, and away were gonan go, go, go",
         "src": "On Golden Pond"
       },
       {
-        "content": "Tell 'em to go out there with all they got and win just one for the Gipper",
+        "content": "Tell em to go out there with all they got and win just one for the Gipper",
         "src": "Knute Rockne, All American"
       },
       {
@@ -366,11 +365,11 @@
         "src": "Gold Finger"
       },
       {
-        "content": "Who's on first?",
+        "content": "Whos on first?",
         "src": "The Naughty Nineties"
       },
       {
-        "content": "Cinderella story. Outta nowhere. A former greenskeeper, now, about to become the Masters champion. It looks like a mirac... It's in the hole! It's in the hole! It's in the hole!",
+        "content": "Cinderella story. Outta nowhere. A former greenskeeper, now, about to become the Masters champion. It looks like a mirac... Its in the hole! Its in the hole! Its in the hole!",
         "src": "Caddyshack"
       },
       {
@@ -398,13 +397,12 @@
         "src": "Dirty Dancing"
       },
       {
-        "content": "I'll get you, my pretty, and your little dog too!",
+        "content": "Ill get you, my pretty, and your little dog too!",
         "src": "The Wizard of Oz"
       },
       {
-        "content": "I'm the King of the World",
+        "content": "Im the King of the World",
         "src": "Titanic"
       }
     ]
   }
-}

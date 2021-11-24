@@ -7,8 +7,15 @@ package facades;
 
 import callables.ApiFetchCallable;
 import com.google.gson.Gson;
+import com.nimbusds.jose.shaded.json.JSONArray;
+import com.nimbusds.jose.shaded.json.JSONObject;
+import com.nimbusds.jose.shaded.json.parser.JSONParser;
 import dtos.MovieDTO;
+import dtos.QuotesDTO;
 import java.io.File;
+import java.io.FileReader;
+import java.io.IOException;
+import java.io.InputStream;
 import java.io.Reader;
 import java.net.URL;
 import java.nio.file.Files;
@@ -30,7 +37,7 @@ public class ServerFacade {
     
     private static EntityManagerFactory emf;
     private static ServerFacade instance;
-    private Gson gson = new Gson();
+    private static Gson gson = new Gson();
 
     private ServerFacade() {
     }
@@ -47,26 +54,31 @@ public class ServerFacade {
         return instance;
     }
     
-    public List<MovieDTO> getDataFromMovie() throws ExecutionException, InterruptedException {
+        public QuotesDTO getDataFromMovie() throws ExecutionException, InterruptedException {
         
-        List<MovieDTO> movieDTOs = new ArrayList();
+        
+        QuotesDTO quotesDTO = null;
         
         try {
+
+            //"C:\\Users\\peter\\Desktop\\Datamatiker\\3. sem\\CA3-Back\\src\\main\\resources\\files\\movies.json"
             
-        //URL url = getClass().getResource("movies.json");
-        //File file = new File(url.getPath());
-            
-        Reader reader = Files.newBufferedReader(Paths.get("movies.json"));
+        URL resource = getClass().getClassLoader().getResource("files/movies.json");
+
+        File file = new File(resource.toURI());
+      
+        Reader reader = Files.newBufferedReader(Paths.get(file.getAbsolutePath()));
         
-        movieDTOs = Arrays.asList(gson.fromJson(reader, MovieDTO[].class));
         
-        reader.close();
+        quotesDTO = gson.fromJson(reader, QuotesDTO.class);    
             
         } catch (Exception ex) {
+            System.out.println("errorrrrrrrrrrrrrrrrrrrrrrrrrr");
             ex.printStackTrace();
         }       
         
-        return movieDTOs;
+       
+        return quotesDTO;
     }
-    
+  
 }

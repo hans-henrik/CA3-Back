@@ -5,23 +5,18 @@
  */
 package dtos;
 
+import java.util.List;
+
 /**
  *
  * @author peter
  */
-public class MovieDTO {
+public class QuotesDTO {
     
-    String content;
-    String src;
-    
-    
-    public MovieDTO(String content, String src) {
-        this.content = content;
-        this.src = src;
-    }
-    
-    public MovieDTO() {
-        
+    List<MovieDTO> quotes;
+
+    public QuotesDTO(List<MovieDTO> quotes) {
+        this.quotes = quotes;
     }
     
 }
