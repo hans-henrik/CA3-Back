@@ -25,11 +25,11 @@ import utils.EMF_Creator;
  *
  * @author peter
  */
- @Path("movies")
+@Path("movies")
 public class MovieResource {
-    
-   
-    
+
+
+
     private static final EntityManagerFactory EMF = EMF_Creator.createEntityManagerFactory();
     private static final ServerFacade FACADE =  ServerFacade.getServerFacade(EMF);
     private static final Gson GSON = new GsonBuilder().setPrettyPrinting().create();
@@ -40,15 +40,13 @@ public class MovieResource {
         return "{\"msg\":\"Is this working?\"}";
     }
 
-@Path("quotes")
+    @Path("quotes")
     @GET
     @Produces(MediaType.APPLICATION_JSON)
     public String getQuoteDTOList() {
         try {
-            QuotesDTO quotesDTO = FACADE.getDataFromMovie() ;
-            System.out.print("Hellooooooooooooooooooooooooooooooo");
-            System.out.print(quotesDTO);
-            
+            QuotesDTO quotesDTO = FACADE.getDataFromMovie();
+
             return GSON.toJson(quotesDTO);
         } catch (Exception e) {
             return GSON.toJson(e);
