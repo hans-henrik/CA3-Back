@@ -10,6 +10,7 @@ import com.google.gson.Gson;
 import com.nimbusds.jose.shaded.json.JSONArray;
 import com.nimbusds.jose.shaded.json.JSONObject;
 import com.nimbusds.jose.shaded.json.parser.JSONParser;
+import dtos.ImageDTO;
 import dtos.MovieDTO;
 import dtos.QuotesDTO;
 import java.io.File;
@@ -79,6 +80,27 @@ public class ServerFacade {
         
        
         return quotesDTO;
+    }
+
+    public ImageDTO getImageFromAPI(String movie) {
+        
+        
+        
+        try {
+             ExecutorService executor = Executors.newCachedThreadPool();
+        
+        String imageHost = "https://api.themoviedb.org/3/search/movie?api_key=15d2ea6d0dc1d476efbca3eba2b9bbfb&query=" + movie;
+        String imageData = executor.submit(new ApiFetchCallable(imageHost, "GET")).get();
+        
+        
+        ImageDTO imageDTO = gson.fromJson(imageData, ImageDTO.class);
+        
+        return imageDTO;
+        } catch (Exception ex) {
+            ex.printStackTrace();
+        }
+       return null;
+        
     }
   
 }
