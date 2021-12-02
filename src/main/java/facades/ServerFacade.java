@@ -13,11 +13,9 @@ import com.nimbusds.jose.shaded.json.parser.JSONParser;
 import dtos.ImageDTO;
 import dtos.MovieDTO;
 import dtos.QuotesDTO;
-import java.io.File;
-import java.io.FileReader;
-import java.io.IOException;
-import java.io.InputStream;
-import java.io.Reader;
+
+import java.io.*;
+import java.net.HttpURLConnection;
 import java.net.URL;
 import java.nio.file.Files;
 import java.nio.file.Paths;
@@ -87,13 +85,27 @@ public class ServerFacade {
         
         
         try {
-             ExecutorService executor = Executors.newCachedThreadPool();
+         //    ExecutorService executor = Executors.newCachedThreadPool();
         
         String imageHost = "https://api.themoviedb.org/3/search/movie?api_key=15d2ea6d0dc1d476efbca3eba2b9bbfb&query=" + movie;
-        String imageData = executor.submit(new ApiFetchCallable(imageHost, "GET")).get();
+        //String imageData = executor.submit(new ApiFetchCallable(imageHost, "GET")).get();
+
+            String response = null;
+
+            HttpURLConnection urlConnection = (HttpURLConnection) new URL(imageHost).openConnection();
+            urlConnection.setRequestProperty("Accept", "application/json");
+            urlConnection.setRequestMethod("GET");
+
+
+            BufferedReader br = new BufferedReader(new InputStreamReader (urlConnection.getInputStream()));
+            String i;
+            while ((i = br.readLine()) != null)
+            {
+                response = i;
+            }
         
         
-        ImageDTO imageDTO = gson.fromJson(imageData, ImageDTO.class);
+        ImageDTO imageDTO = gson.fromJson(response, ImageDTO.class);
         
         return imageDTO;
         } catch (Exception ex) {

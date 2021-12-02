@@ -47,7 +47,9 @@ public class ImagesResource {
     @Produces(MediaType.APPLICATION_JSON)
     public String getImageDTO (@QueryParam("movie")String movie) {
         try {
+            movie = movie.replaceAll(" ", "%20");
             ImageDTO imageDTO = FACADE.getImageFromAPI(movie);
+
 
             return GSON.toJson(imageDTO);
         } catch (Exception e) {
