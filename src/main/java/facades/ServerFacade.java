@@ -80,6 +80,8 @@ public class ServerFacade {
         return quotesDTO;
     }
 
+    // OH LOOK; A CHANGE!
+
     public ImageDTO getImageFromAPI(String movie) {
         
         
