@@ -63,7 +63,7 @@ public class User implements Serializable {
    public User(UserDTO u) {
        // if (u.getId() != null) this.id = u.getId();
         this.userName = u.getUserName();
-        this.userPass = u.getUserPass();
+        this.userPass = BCrypt.hashpw(userPass,BCrypt.gensalt());
     }
 
   public String getUserName() {

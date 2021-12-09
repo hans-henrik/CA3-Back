@@ -60,10 +60,12 @@ public class UserResource {
     
     @Path("createUser")
     @POST
-    @Consumes(MediaType.APPLICATION_JSON)
     @Produces(MediaType.APPLICATION_JSON)
-    public String getCreateUser(@FormParam("user") UserDTO user)
+    public String getCreateUser(String user)
     {
-        return GSON.toJson(FACADE.createUserDTO(user));
-    }
+        UserDTO uDTO = GSON.fromJson(user, UserDTO.class);
+        uDTO = FACADE.createUserDTO(uDTO);
+        return GSON.toJson(uDTO);
+    }  
+        
 }

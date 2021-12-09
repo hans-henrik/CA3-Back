@@ -1,6 +1,7 @@
 package dtos;
 
 import entities.User;
+import org.mindrot.jbcrypt.BCrypt;
 
 public class UserDTO {
     private String userName;
@@ -17,6 +18,8 @@ public class UserDTO {
         this.userPass = u.getUserPass();
     }
 
+    public UserDTO() {
+    }
 
     @Override
     public String toString() {
